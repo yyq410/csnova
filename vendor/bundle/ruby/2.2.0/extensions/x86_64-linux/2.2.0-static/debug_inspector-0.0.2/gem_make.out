@@ -1,0 +1,11 @@
+/usr/local/bin/ruby -r ./siteconf20150707-30600-mh6gw5.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.so ./.gem.20150707-30600-2l2br0

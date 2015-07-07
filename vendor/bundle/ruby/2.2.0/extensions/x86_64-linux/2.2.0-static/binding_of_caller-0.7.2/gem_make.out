@@ -1,0 +1,12 @@
+/usr/local/bin/ruby -r ./siteconf20150707-30600-xw8f8b.rb extconf.rb
+
+make "DESTDIR=" clean
+make: *** 没有规则可以创建目标“clean”。 停止。
+
+make "DESTDIR="
+echo "Nada."
+Nada.
+
+make "DESTDIR=" install
+echo "Nada."
+Nada.
